@@ -13,8 +13,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-div {
+  background-color: pink;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,30 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.pill-btn{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 70px;
+  line-height: 64px;
+  background: #6188FF;
+  padding: 0px 30px;
+  border-radius: 999em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+      vertical-align: bottom;
+    white-space: nowrap;
+  border: 3px solid #5C81F2;
+  font-family: lato;
+  letter-spacing: 2px;
+  transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+  font-weight: 600;
+}
+.pill-btn:hover{
+  background: #7A9BFF;
+  border: 3px solid #7493F2;
 }
 
 @keyframes App-logo-spin {
