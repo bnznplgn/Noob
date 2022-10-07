@@ -14,7 +14,7 @@ function App() {
     const randomNumber = Math.floor(Math.random() * 50);
     const randomStarNumber = Math.floor(Math.random() * 12);
 
-
+//test
 
     setTirage(randomNumber);
     setStar(randomStarNumber);
